@@ -328,7 +328,7 @@ public class PlayerMovment2 : MonoBehaviour
                 OnWallrunWallLeft = false;
                 wallRuntimer = 2.5f;
                 //PlayerRb.velocity = PlayerRb.velocity + new Vector3(PlayerRb.velocity.x, 0, PlayerRb.velocity.z);
-                PlayerRb.AddForce(WallHit.normal * 20 + Vector3.up * 5, ForceMode.Impulse);
+                PlayerRb.AddForce(WallHit.normal * 5 + Vector3.up * 5, ForceMode.Impulse);
             }
         }
         else
