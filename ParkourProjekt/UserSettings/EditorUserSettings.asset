@@ -5,6 +5,24 @@ EditorUserSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 4
   m_ConfigSettings:
+<<<<<<< HEAD
+=======
+    RecentlyUsedSceneGuid-0:
+      value: 0700575554055059090c597611270a44154f19782e7a7e63757c4f6be7b66068
+      flags: 0
+    RecentlyUsedSceneGuid-1:
+      value: 5752055f520c085f550d5a7114770e4442161d2e7b7f77632c7f4e36b7b8666a
+      flags: 0
+    RecentlyUsedSceneGuid-2:
+      value: 5b07005603535f5d5f5a5a7511200d44454f192f2a2d2464752f1837b2e1316b
+      flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 5303040007505b0c5d575b7a41715a44134e4d2c2d7925357a791930b7e3376e
+      flags: 0
+    RecentlyUsedSceneGuid-4:
+      value: 0204500257060f0e095a5a24437b0b44124f407a282a7166747e4f31b0e1623a
+      flags: 0
+>>>>>>> parent of 71c3505 (graplling hook klar)
     vcSharedLogLevel:
       value: 0d5e400f0650
       flags: 0
