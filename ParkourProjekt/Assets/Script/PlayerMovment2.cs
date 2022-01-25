@@ -6,13 +6,14 @@ public class PlayerMovment2 : MonoBehaviour
 {
     private Rigidbody PlayerRb;
     private CharacterController PlayerController;
+    [SerializeField] private GameObject PlayerCam;
 
     private float MoveX;
     private float MoveY;
 
     public GameObject HitBall;
 
-    private float PlayerHeight = 1;
+    private float PlayerHeight = 2;
 
     private Vector3 Movment;
     private Vector3 SlidingMovment;
@@ -94,7 +95,7 @@ public class PlayerMovment2 : MonoBehaviour
         Run();
 
 
-        transform.localScale = new Vector3(1, PlayerHeight, 1);
+        gameObject.GetComponent<CapsuleCollider>().height = PlayerHeight;
         Movment = (transform.right * MoveX + transform.forward * MoveY);
     }
 
@@ -172,13 +173,15 @@ public class PlayerMovment2 : MonoBehaviour
     {
         if (Input.GetKeyDown(CrouchKey))
         {
-            PlayerHeight = 0.5f;
-            transform.position += Vector3.down * 0.5f;
+            PlayerHeight = 1;
+            gameObject.GetComponent<CapsuleCollider>().center = new Vector3(0,-0.5f);
+            PlayerCam.transform.position += Vector3.down * 0.5f;
         }
         else if (Input.GetKeyUp(CrouchKey))
         {
-            PlayerHeight = 1;
-            transform.position += Vector3.up * 0.5f;
+            PlayerHeight = 2;
+            gameObject.GetComponent<CapsuleCollider>().center = new Vector3(0, 0);
+            PlayerCam.transform.position += Vector3.up * 0.5f;
         }
         if (PlayerRb.velocity.magnitude > 3 && Input.GetKey(RunKey) && Input.GetKey(CrouchKey) && isGrounded)
         {

@@ -111,7 +111,11 @@
             {
                 "type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "ShapeBuilder.ActiveShapeIndex",
+<<<<<<< HEAD
+                "value": "{\"m_Value\":2}"
+=======
                 "value": "{\"m_Value\":6}"
+>>>>>>> 71c3505f90c84c9c4d38496888d451c36ea14bec
             },
             {
                 "type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
@@ -131,7 +135,11 @@
             {
                 "type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "key": "ShapeBuilder.LastSize",
+<<<<<<< HEAD
+                "value": "{\"m_Value\":{\"x\":14.805447578430176,\"y\":6.657327175140381,\"z\":-15.406356811523438}}"
+=======
                 "value": "{\"m_Value\":{\"x\":-0.5627307891845703,\"y\":0.0,\"z\":0.5628662109375}}"
+>>>>>>> 71c3505f90c84c9c4d38496888d451c36ea14bec
             },
             {
                 "type": "UnityEngine.Quaternion, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
