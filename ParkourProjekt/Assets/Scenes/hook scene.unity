@@ -1122,6 +1122,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6052828700261168837, guid: a125b80ae4621b647b1be4fa5755bfcf, type: 3}
   m_PrefabInstance: {fileID: 1654970501}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 71c3505 (graplling hook klar)
+=======
 >>>>>>> parent of 71c3505 (graplling hook klar)
 --- !u!1 &1732378556
 GameObject:
@@ -1304,6 +1307,7 @@ RectTransform:
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &3696781640622268773
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1361,5 +1365,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 401d16252d8a0fb45a649e2e9408aa7a, type: 3}
+=======
+>>>>>>> parent of 71c3505 (graplling hook klar)
 =======
 >>>>>>> parent of 71c3505 (graplling hook klar)
