@@ -1123,6 +1123,9 @@ Transform:
   m_PrefabInstance: {fileID: 1654970501}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 71c3505 (graplling hook klar)
+=======
 >>>>>>> parent of 71c3505 (graplling hook klar)
 =======
 >>>>>>> parent of 71c3505 (graplling hook klar)
@@ -1308,6 +1311,7 @@ RectTransform:
   m_Pivot: {x: 0, y: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &3696781640622268773
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1365,6 +1369,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 401d16252d8a0fb45a649e2e9408aa7a, type: 3}
+=======
+>>>>>>> parent of 71c3505 (graplling hook klar)
 =======
 >>>>>>> parent of 71c3505 (graplling hook klar)
 =======
